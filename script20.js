@@ -36,6 +36,24 @@ for (const product of cart) {
     }
 }
 
+const welcome = (name, title = "Medlem") => {
+    return "VÄlkommen ${title} ${name}"
+
+}
+
+console.log(wecome("Klara", "Admin"))
+console.log(welcome("Ahmad"))
+
+console.log(user1)
+console.log(user2)
+
+const provPoints = [18, 22, 15, 28, 20]
+const countmedel = (arr) => {
+    let sum = 0
+    for(const points of arr) {
+
+    }
+
 
 
 
