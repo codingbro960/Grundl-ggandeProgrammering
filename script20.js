@@ -78,9 +78,28 @@ const countmedel = (arr) => {
 
     }
 
+    const result = [];
     
+    for(const kund of kunder) {
+        if (kund.VIP=== true) {
+            const rabbateratpris = kund.köpSumma * 0.9;
 
-}
+            const VIPKund = {
+                namn: kund.namn,
+                köpSumma: rabbateratpris
+            };
+
+            result.push(VIPKund);
+        }
+    }
+
+    return result
+   };
+
+   const VIPBonus = getVIPBonus();
+
+   console.log(VIPBonus);
+
 
 const versaler == (str) => {
     return str.toUpperCase()
