@@ -78,8 +78,14 @@ const countmedel = (arr) => {
 
     }
 
+    const kunder = [
+        {namn: "Ibrahim" , VIP: true, köpSumma: 1200}
+        {namn: "Muhammad" , VIP: false, köpSumma: 450}
+        {namn: "Ali" , VIP: true, köpSumma: 600}
+    ]
+    const getVIPBonus = callbackFN => {
     const result = [];
-    
+    }
     for(const kund of kunder) {
         if (kund.VIP=== true) {
             const rabbateratpris = kund.köpSumma * 0.9;
