@@ -49,13 +49,34 @@ console.log(user2)
 
 const provPoints = [18, 22, 15, 28, 20]
 const countmedel = (arr) => {
+
+}
     let sum = 0
     for(const points of arr) {
 
     }
 
+    function countmedel = (provPointsArr) {
+        let sum = 0;
+    }
+
       for (let i = 0; i < arr.length; i++) {
     console.log(arr[1]);
+
+    const countmedel = (provPointsArr) => {
+        let sum = 0
+    }
+
+    for ( const point of provPointsArr) {
+        sum = sum + point;
+        return sum / provPointsArr.length {
+
+        }
+        const medelvärde = countmedel(provPoints);
+
+        console.log("Medelpoäng på provet:", medelvärde);
+
+    }
 
     
 
