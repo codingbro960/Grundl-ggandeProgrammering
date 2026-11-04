@@ -57,8 +57,48 @@ const countmedel = (arr) => {
       for (let i = 0; i < arr.length; i++) {
     console.log(arr[1]);
 
+    
+
 }
 
+const versaler == (str) => {
+    return str.toUpperCase()
+}
+
+const myName = versaler("Ali")
+console.log(myName)
+
+const citera = (str) => {
+    return "$(str)"
+
+}
+
+const formateraText = (text, callback) => callback(text)
+const myName = versaler("Ali")
+
+const myName = citera ("Ali")
+const formateraText = (text, callback) => {
+    return callback(text)
+}
+    
+
+    const tal = [1, 15, 8, 25, 2]
+
+    const overTio = tal.filter ((siffra)) => siffra > 10
+    
+    const PLUSSADE = tal.map(siffra => siffra + 5)
+        
+        console:log(tal)
+        console.log(overTio)
+        console.log(plussade)
+
+        const tal = [10, 20, 30, 40,]
+
+        const del = tal.splice(1, 3)
+
+        console.log(tal)
+
+        
 
 
 
