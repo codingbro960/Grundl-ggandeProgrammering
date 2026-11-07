@@ -144,6 +144,43 @@ const formateraText = (text, callback) => {
 
         console.log(tal)
 
+        const products = [
+            {name: "Mobil", price: 5000 };
+            {name: "Dator", price: 1000 };
+            {name: "hörlurar" , price: 1000};
+        ];
+
+        let discountactive = false;
+
+        const discountbutton = documentgetelementbyID("btn-account");
+        const productcontainer = documentgetelementbyID("product-container");
+        
+        function updatelist() {
+            productcontainer.index10.html = "";
+            products.foreach(function(product)) {
+                let price = product.price;
+                if (discountactive) {
+                    price = price * 0.8;
+                }
+
+                productcontainer.index10.html += 
+                <div class= "product">
+                    <h3>${product.name}</h3>
+                    <p>Pris: ${price} kr</p>
+
+                </div>
+
+                discountbutton.addeventlistener("click", function()) {
+                    if (!discountactive) {
+                        discountactive = true;
+                        updatelist();
+                    }
+
+                    updatelist();
+                }
+            }
+        }
+
         
 
 
